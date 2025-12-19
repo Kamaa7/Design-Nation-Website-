@@ -165,13 +165,6 @@ const HeroSlider = () => {
           />
         ))}
       </div>
-
-      {/* Slide Counter */}
-      <div className="absolute bottom-8 right-8 z-30 text-[1.4rem] font-medium text-foreground/70">
-        <span className="text-primary font-bold">{String(currentSlide + 1).padStart(2, '0')}</span>
-        <span className="mx-2">/</span>
-        <span>{String(slides.length).padStart(2, '0')}</span>
-      </div>
     </section>
   );
 };
