@@ -7,12 +7,16 @@ import {
   SheetClose,
 } from "@/components/ui/sheet";
 import { Search, X } from "lucide-react";
+import { useTheme } from "@/components/ThemeProvider";
 import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const { theme } = useTheme();
+  const [currentTheme, setCurrentTheme] = useState<"light" | "dark">("light");
+  const [logoDark, setLogoDark] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +25,37 @@ const Header = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const updateTheme = () => {
+      if (theme === "system") {
+        const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+          .matches
+          ? "dark"
+          : "light";
+        setCurrentTheme(systemTheme);
+      } else {
+        setCurrentTheme(theme);
+      }
+    };
+
+    updateTheme();
+    const root = document.documentElement;
+    const observer = new MutationObserver(updateTheme);
+    observer.observe(root, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+
+    return () => observer.disconnect();
+  }, [theme]);
+
+  // Try to load dark logo
+  useEffect(() => {
+    import("@/assets/logo-dark.jpg")
+      .then((module) => setLogoDark(module.default))
+      .catch(() => setLogoDark(null)); // Dark logo doesn't exist, will use regular logo
   }, []);
 
   const handleSearch = (e: React.FormEvent) => {
@@ -40,13 +75,14 @@ const Header = () => {
     >
       <div className="h-full px-6 md:px-[calc(18vw-10rem)]">
         <div className="flex items-center justify-between h-full max-w-[138rem] mx-auto">
-          <Link to="/" className="flex items-center gap-3">
-            <div className="logo-container h-16 w-20 md:h-20 md:w-24">
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className="logo-wrapper h-16 w-20 md:h-20 md:w-24">
               <img 
-                src={logo} 
+                src={currentTheme === "dark" && logoDark ? logoDark : logo} 
                 alt="Design Nation" 
-                className="logo-image h-full w-full"
-                data-theme-adjust="true"
+                className={`logo-image h-full w-full object-contain transition-opacity duration-300 ${
+                  currentTheme === "light" ? "logo-light" : "logo-dark"
+                }`}
               />
             </div>
           </Link>
