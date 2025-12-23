@@ -41,7 +41,7 @@ const Header = () => {
       <div className="h-full px-6 md:px-[calc(18vw-10rem)]">
         <div className="flex items-center justify-between h-full max-w-[138rem] mx-auto">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="logo-wrapper h-16 w-20 md:h-20 md:w-24">
+            <div className="logo-wrapper h-20 w-24 md:h-24 md:w-28">
               <img 
                 src={logo} 
                 alt="Design Nation" 
