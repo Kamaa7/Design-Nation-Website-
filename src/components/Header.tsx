@@ -7,7 +7,7 @@ import {
   SheetClose,
 } from "@/components/ui/sheet";
 import { Search, X } from "lucide-react";
-import logo from "@/assets/logo Design Nation.png";
+import logo from "@/assets/logo new.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
