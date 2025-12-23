@@ -108,13 +108,13 @@ const Header = () => {
             <Sheet>
               <SheetTrigger asChild>
                 <button
-                  className="lg:hidden flex items-center gap-2 p-2 text-foreground hover:text-muted-foreground transition-colors"
+                  className="lg:hidden flex items-center gap-2 p-2 text-[#1e3a8a] hover:text-[#1e40af] transition-colors"
                   aria-label="Open menu"
                 >
                   <span className="text-[18px] font-medium leading-none">Menu</span>
                   <div className="w-12 flex flex-col gap-[7px] items-center justify-center mt-[5px]">
-                    <span className="w-[20px] h-[2px] bg-current block"></span>
-                    <span className="w-[20px] h-[2px] bg-current block"></span>
+                    <span className="w-[20px] h-[2px] bg-[#1e3a8a] block"></span>
+                    <span className="w-[20px] h-[2px] bg-[#1e3a8a] block"></span>
                   </div>
                 </button>
               </SheetTrigger>
@@ -140,7 +140,7 @@ const Header = () => {
                       <SheetClose asChild>
                         <Link
                           to="/"
-                          className="text-[3.2rem] inline-block font-semibold hover:text-primary transition-colors"
+                          className="text-[3.2rem] inline-block font-semibold text-[#1e3a8a] hover:text-[#1e40af] transition-colors"
                         >
                           Home
                         </Link>
@@ -150,7 +150,7 @@ const Header = () => {
                       <SheetClose asChild>
                         <Link
                           to="/about"
-                          className="text-[3.2rem] inline-block font-semibold hover:text-primary transition-colors"
+                          className="text-[3.2rem] inline-block font-semibold text-[#1e3a8a] hover:text-[#1e40af] transition-colors"
                         >
                           About
                         </Link>
@@ -160,7 +160,7 @@ const Header = () => {
                       <SheetClose asChild>
                         <Link
                           to="/services"
-                          className="text-[3.2rem] inline-block font-semibold hover:text-primary transition-colors"
+                          className="text-[3.2rem] inline-block font-semibold text-[#1e3a8a] hover:text-[#1e40af] transition-colors"
                         >
                           Services
                         </Link>
@@ -170,7 +170,7 @@ const Header = () => {
                       <SheetClose asChild>
                         <Link
                           to="/projects"
-                          className="text-[3.2rem] inline-block font-semibold hover:text-primary transition-colors"
+                          className="text-[3.2rem] inline-block font-semibold text-[#1e3a8a] hover:text-[#1e40af] transition-colors"
                         >
                           Projects
                         </Link>
@@ -180,7 +180,7 @@ const Header = () => {
                       <SheetClose asChild>
                         <Link
                           to="/contact"
-                          className="text-[3.2rem] inline-block font-semibold hover:text-primary transition-colors"
+                          className="text-[3.2rem] inline-block font-semibold text-[#1e3a8a] hover:text-[#1e40af] transition-colors"
                         >
                           Contact
                         </Link>
