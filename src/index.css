@@ -259,12 +259,15 @@ All colors MUST be HSL.
     animation: pulse 2s ease-in-out infinite;
   }
 
-  /* Logo styling for light and dark themes */
+  /* Logo styling - pure white background in both themes */
   .logo-wrapper {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
     transition: transform 0.3s ease;
   }
 
@@ -274,26 +277,18 @@ All colors MUST be HSL.
 
   .logo-image {
     object-fit: contain;
+    background-color: #ffffff;
     transition: opacity 0.3s ease;
   }
 
-  /* Light theme - ensure pure white background matching website (#ffffff) */
-  .light .logo-wrapper {
-    background-color: #ffffff;
-    padding: 0.4rem;
-    border-radius: 0.4rem;
-  }
-
-  .light .logo-image {
-    background-color: #ffffff;
-  }
-
-  /* Dark theme - transparent background, use dark logo */
+  /* Ensure white background in both light and dark themes */
+  .light .logo-wrapper,
   .dark .logo-wrapper {
-    background-color: transparent;
+    background-color: #ffffff !important;
   }
 
+  .light .logo-image,
   .dark .logo-image {
-    background-color: transparent;
+    background-color: #ffffff !important;
   }
 }
