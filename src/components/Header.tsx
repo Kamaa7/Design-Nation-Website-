@@ -52,19 +52,19 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            <Link to="/" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Home
             </Link>
-            <Link to="/about" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/about" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               About
             </Link>
-            <Link to="/services" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/services" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Services
             </Link>
-            <Link to="/projects" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/projects" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Projects
             </Link>
-            <Link to="/contact" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/contact" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Contact
             </Link>
           </nav>
@@ -97,10 +97,10 @@ const Header = () => {
               ) : (
                 <button
                   onClick={() => setIsSearchOpen(true)}
-                  className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-muted transition-colors"
+                  className="w-10 h-10 rounded-full border border-[#1e3a8a] flex items-center justify-center hover:bg-[#1e3a8a]/10 transition-colors"
                   aria-label="Open search"
                 >
-                  <Search className="w-4 h-4" />
+                  <Search className="w-4 h-4 text-[#1e3a8a]" />
                 </button>
               )}
             </div>
