@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-background transition-shadow duration-300 ${
+      className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
         isScrolled ? "shadow-[0_0_calc(1.125*16px)_rgba(0,0,0,0.15)]" : ""
       }`}
       style={{ height: "72px" }}
@@ -52,19 +52,19 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            <Link to="/" className="text-[1.6rem] font-medium hover:text-primary transition-colors">
+            <Link to="/" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Home
             </Link>
-            <Link to="/about" className="text-[1.6rem] font-medium hover:text-primary transition-colors">
+            <Link to="/about" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               About
             </Link>
-            <Link to="/services" className="text-[1.6rem] font-medium hover:text-primary transition-colors">
+            <Link to="/services" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Services
             </Link>
-            <Link to="/projects" className="text-[1.6rem] font-medium hover:text-primary transition-colors">
+            <Link to="/projects" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Projects
             </Link>
-            <Link to="/contact" className="text-[1.6rem] font-medium hover:text-primary transition-colors">
+            <Link to="/contact" className="text-[1.6rem] font-medium text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
               Contact
             </Link>
           </nav>
