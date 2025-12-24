@@ -291,4 +291,9 @@ All colors MUST be HSL.
   .dark .logo-image {
     background-color: #ffffff !important;
   }
+
+  /* Manrope font for navigation */
+  .font-manrope {
+    font-family: 'Manrope', sans-serif;
+  }
 }

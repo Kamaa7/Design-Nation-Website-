@@ -52,19 +52,19 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            <Link to="/" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/" className="font-manrope text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-all duration-300 hover:scale-105">
               Home
             </Link>
-            <Link to="/about" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/about" className="font-manrope text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-all duration-300 hover:scale-105">
               About
             </Link>
-            <Link to="/services" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/services" className="font-manrope text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-all duration-300 hover:scale-105">
               Services
             </Link>
-            <Link to="/projects" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/projects" className="font-manrope text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-all duration-300 hover:scale-105">
               Projects
             </Link>
-            <Link to="/contact" className="text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-colors">
+            <Link to="/contact" className="font-manrope text-[1.6rem] font-semibold tracking-wide text-[#1e3a8a] hover:text-[#1e40af] transition-all duration-300 hover:scale-105">
               Contact
             </Link>
           </nav>
