@@ -48,12 +48,12 @@ const About = () => {
         </AppearOnScroll>
         <AppearOnScroll delay={150}>
           <p className="text-[1.8rem] leading-[1.8] text-foreground mb-6">
-            Ar.Vishal Singh is the founder and principal designer of Design Nation, a premier interior design firm dedicated to transforming spaces into living works of art. With a sharp eye for detail and a passion for architectural harmony, Ar.Vishal has built a reputation for creating interiors that are as functional as they are breathtaking.
+            Ar. Vishal Singh is the founder and principal designer of Design Nation, a premier interior design firm dedicated to transforming spaces into living works of art. With a sharp eye for detail and a passion for architectural harmony, Ar. Vishal has built a reputation for creating interiors that are as functional as they are breathtaking.
           </p>
         </AppearOnScroll>
         <AppearOnScroll delay={300}>
           <p className="text-[1.8rem] leading-[1.8] text-foreground">
-            At Design Nation, Ar.Vishal leads a team of creative minds who believe that every space has a story to tell. His design philosophy blends modern innovation with timeless elegance, ensuring that every project whether residential or commercial reflects the unique personality and aspirations of the client. Under his leadership, Design Nation has become a destination for those seeking sophisticated, turnkey design solutions.
+            At Design Nation, Ar. Vishal leads a team of creative minds who believe that every space has a story to tell. His design philosophy blends modern innovation with timeless elegance, ensuring that every project whether residential or commercial reflects the unique personality and aspirations of the client. Under his leadership, Design Nation has become a destination for those seeking sophisticated, turnkey design solutions.
           </p>
         </AppearOnScroll>
       </div>
