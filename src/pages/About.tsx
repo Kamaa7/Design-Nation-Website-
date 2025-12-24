@@ -43,17 +43,17 @@ const About = () => {
       <div className="box-content max-w-[64rem] px-4 md:px-[calc(18vw-10rem)] mx-auto relative mb-[6rem] md:mb-[9rem] lg:mb-[12rem]">
         <AppearOnScroll delay={0}>
           <h2 className="text-[2.7rem] md:text-[3.6rem] font-semibold mb-[3rem]">
-            The Visionary Behind Design Nation
+            The Visionary at Design Nation
           </h2>
         </AppearOnScroll>
         <AppearOnScroll delay={150}>
           <p className="text-[1.8rem] leading-[1.8] text-foreground mb-6">
-            Vishal Singh is the founder and principal designer of Design Nation, a premier interior design firm dedicated to transforming spaces into living works of art. With a sharp eye for detail and a passion for architectural harmony, Vishal has built a reputation for creating interiors that are as functional as they are breathtaking.
+            Ar.Vishal Singh is the founder and principal designer of Design Nation, a premier interior design firm dedicated to transforming spaces into living works of art. With a sharp eye for detail and a passion for architectural harmony, Ar.Vishal has built a reputation for creating interiors that are as functional as they are breathtaking.
           </p>
         </AppearOnScroll>
         <AppearOnScroll delay={300}>
           <p className="text-[1.8rem] leading-[1.8] text-foreground">
-            At Design Nation, Vishal leads a team of creative minds who believe that every space has a story to tell. His design philosophy blends modern innovation with timeless elegance, ensuring that every project whether residential or commercial reflects the unique personality and aspirations of the client. Under his leadership, Design Nation has become a destination for those seeking sophisticated, turnkey design solutions.
+            At Design Nation, Ar.Vishal leads a team of creative minds who believe that every space has a story to tell. His design philosophy blends modern innovation with timeless elegance, ensuring that every project whether residential or commercial reflects the unique personality and aspirations of the client. Under his leadership, Design Nation has become a destination for those seeking sophisticated, turnkey design solutions.
           </p>
         </AppearOnScroll>
       </div>
