@@ -43,7 +43,7 @@ const About = () => {
       <div className="box-content max-w-[64rem] px-4 md:px-[calc(18vw-10rem)] mx-auto relative mb-[6rem] md:mb-[9rem] lg:mb-[12rem]">
         <AppearOnScroll delay={0}>
           <h2 className="text-[2.7rem] md:text-[3.6rem] font-semibold mb-[3rem]">
-            The Visionary at Design Nation
+            Design Nation's Visionary
           </h2>
         </AppearOnScroll>
         <AppearOnScroll delay={150}>
