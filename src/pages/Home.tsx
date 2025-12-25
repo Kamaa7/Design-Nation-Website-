@@ -12,6 +12,7 @@ import interior3 from "@/assets/interior-3.jpg";
 import interior4 from "@/assets/interior-4.jpg";
 import interior5 from "@/assets/interior-5.jpg";
 import interior6 from "@/assets/interior-6.jpg";
+import kitchen from "@/assets/kitchen.jpg";
 
 const HomePage = () => {
   const projectsRef = useRef<(HTMLElement | null)[]>([]);
@@ -66,7 +67,7 @@ const HomePage = () => {
 
   const projects = [
     { title: "Modern Master Bedroom", category: "Residential", image: interior1 },
-    { title: "Luxury Kitchen Design", category: "Residential", image: interior2 },
+    { title: "Luxury Kitchen Design", category: "Residential", image: kitchen },
     { title: "Contemporary Bedroom", category: "Residential", image: interior3 },
     { title: "Elegant Bedroom Suite", category: "Residential", image: interior4 },
     { title: "Stylish Bedroom Space", category: "Residential", image: interior5 },
