@@ -16,6 +16,7 @@ import service1 from "@/assets/service-1.jpg";
 import kitchen from "@/assets/kitchen.jpg";
 import livingRoom from "@/assets/living room.jpg";
 import kidsBedroom from "@/assets/kids bedroom.png";
+import elegantBedroom from "@/assets/Elegant bedroom.jpg";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -46,7 +47,7 @@ const Projects = () => {
     { title: "Contemporary Living Room", category: "Residential", image: livingRoom, description: "Modern living space with artistic wall paneling, statement artwork, and sophisticated furnishings." },
     { title: "Serene Bedroom Retreat", category: "Residential", image: interior3, description: "A peaceful bedroom design with soft color palettes, cozy seating, and integrated study corner." },
     { title: "Premium Kitchen Design", category: "Residential", image: kitchen, description: "Elegant modular kitchen with marble backsplash, under-cabinet lighting, and smart storage." },
-    { title: "Elegant Guest Bedroom", category: "Residential", image: interior5, description: "Stylish guest bedroom with designer ceiling, wardrobes, and coordinated soft furnishings." },
+    { title: "Elegant Guest Bedroom", category: "Residential", image: elegantBedroom, description: "Stylish guest bedroom with designer ceiling, wardrobes, and coordinated soft furnishings." },
     { title: "Modern Living Space", category: "Residential", image: interior6, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
     { title: "Cozy Family Room", category: "Residential", image: interior7, description: "Warm family space designed for comfort with plush seating and thoughtful storage solutions." },
     { title: "Kids Bedroom", category: "Residential", image: kidsBedroom, description: "Playful and cozy kids bedroom with whimsical wallpaper, soft colors, and modern design elements perfect for children." },
