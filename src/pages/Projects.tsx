@@ -17,6 +17,10 @@ import kitchen from "@/assets/kitchen.jpg";
 import livingRoom from "@/assets/living room.jpg";
 import kidsBedroom from "@/assets/kids bedroom.png";
 import elegantBedroom from "@/assets/Elegant bedroom.jpg";
+import commercial1 from "@/assets/commercial 1.jpg";
+import commercial2 from "@/assets/commercial 2.jpg";
+import commercial3 from "@/assets/commercial 3.jpg";
+import commercial4 from "@/assets/commercial 4.jpg";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -51,6 +55,10 @@ const Projects = () => {
     { title: "Modern Living Space", category: "Residential", image: interior6, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
     { title: "Cozy Family Room", category: "Residential", image: interior7, description: "Warm family space designed for comfort with plush seating and thoughtful storage solutions." },
     { title: "Kids Bedroom", category: "Residential", image: kidsBedroom, description: "Playful and cozy kids bedroom with whimsical wallpaper, soft colors, and modern design elements perfect for children." },
+    { title: "Executive Conference Room", category: "Commercial", image: commercial1, description: "Sophisticated meeting room with integrated shelving, modern lighting, and elegant furnishings for professional environments." },
+    { title: "Modern Office Workspace", category: "Commercial", image: commercial2, description: "Contemporary office space with collaborative workstations, natural lighting, and minimalist design for enhanced productivity." },
+    { title: "Luxury Reception Lounge", category: "Commercial", image: commercial3, description: "Elegant reception area featuring curved seating, natural stone accents, and ambient lighting creating a welcoming atmosphere." },
+    { title: "Premium Executive Office", category: "Commercial", image: commercial4, description: "High-end executive office with sophisticated design, built-in storage, and refined finishes for professional excellence." },
   ];
 
   const filteredProjects = projects.filter(
@@ -78,7 +86,7 @@ const Projects = () => {
       {/* Filter */}
       <Section className="pt-12 pb-0">
         <div className="flex gap-4 justify-center flex-wrap">
-          {["All", "Residential"].map((category) => (
+          {["All", "Residential", "Commercial"].map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
