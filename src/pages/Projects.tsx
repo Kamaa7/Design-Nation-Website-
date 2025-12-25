@@ -14,6 +14,7 @@ import interior6 from "@/assets/interior-6.jpg";
 import interior7 from "@/assets/interior-7.jpg";
 import service1 from "@/assets/service-1.jpg";
 import kitchen from "@/assets/kitchen.jpg";
+import livingRoom from "@/assets/living room.jpg";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -41,7 +42,7 @@ const Projects = () => {
 
   const projects = [
     { title: "Master Bedroom Suite", category: "Residential", image: interior1, description: "A luxurious master bedroom featuring elegant wall textures, ambient lighting, and premium finishes." },
-    { title: "Contemporary Living Room", category: "Residential", image: interior2, description: "Modern living space with artistic wall paneling, statement artwork, and sophisticated furnishings." },
+    { title: "Contemporary Living Room", category: "Residential", image: livingRoom, description: "Modern living space with artistic wall paneling, statement artwork, and sophisticated furnishings." },
     { title: "Serene Bedroom Retreat", category: "Residential", image: interior3, description: "A peaceful bedroom design with soft color palettes, cozy seating, and integrated study corner." },
     { title: "Premium Kitchen Design", category: "Residential", image: kitchen, description: "Elegant modular kitchen with marble backsplash, under-cabinet lighting, and smart storage." },
     { title: "Elegant Guest Bedroom", category: "Residential", image: interior5, description: "Stylish guest bedroom with designer ceiling, wardrobes, and coordinated soft furnishings." },
