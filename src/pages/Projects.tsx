@@ -49,7 +49,6 @@ const Projects = () => {
   const projects = [
     { title: "Master Bedroom Suite", category: "Residential", image: interior1, description: "A luxurious master bedroom featuring elegant wall textures, ambient lighting, and premium finishes." },
     { title: "Contemporary Living Room", category: "Residential", image: livingRoom, description: "Modern living space with artistic wall paneling, statement artwork, and sophisticated furnishings." },
-    { title: "Serene Bedroom Retreat", category: "Residential", image: interior3, description: "A peaceful bedroom design with soft color palettes, cozy seating, and integrated study corner." },
     { title: "Premium Kitchen Design", category: "Residential", image: kitchen, description: "Elegant modular kitchen with marble backsplash, under-cabinet lighting, and smart storage." },
     { title: "Elegant Guest Bedroom", category: "Residential", image: elegantBedroom, description: "Stylish guest bedroom with designer ceiling, wardrobes, and coordinated soft furnishings." },
     { title: "Modern Living Space", category: "Residential", image: interior6, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
