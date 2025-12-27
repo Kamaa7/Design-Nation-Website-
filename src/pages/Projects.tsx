@@ -21,6 +21,7 @@ import commercial1 from "@/assets/commercial 1.jpg";
 import commercial2 from "@/assets/commercial 2.jpg";
 import commercial3 from "@/assets/commercial 3.jpg";
 import commercial4 from "@/assets/commercial 4.jpg";
+import modernSpace from "@/assets/modern space.jpg";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -51,7 +52,7 @@ const Projects = () => {
     { title: "Contemporary Living Room", category: "Residential", image: livingRoom, description: "Modern living space with artistic wall paneling, statement artwork, and sophisticated furnishings." },
     { title: "Premium Kitchen Design", category: "Residential", image: kitchen, description: "Elegant modular kitchen with marble backsplash, under-cabinet lighting, and smart storage." },
     { title: "Elegant Guest Bedroom", category: "Residential", image: elegantBedroom, description: "Stylish guest bedroom with designer ceiling, wardrobes, and coordinated soft furnishings." },
-    { title: "Modern Living Space", category: "Residential", image: interior6, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
+    { title: "Modern Living Space", category: "Residential", image: modernSpace, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
     { title: "Cozy Family Room", category: "Residential", image: interior7, description: "Warm family space designed for comfort with plush seating and thoughtful storage solutions." },
     { title: "Kids Bedroom", category: "Residential", image: kidsBedroom, description: "Playful and cozy kids bedroom with whimsical wallpaper, soft colors, and modern design elements perfect for children." },
     { title: "Executive Conference Room", category: "Commercial", image: commercial1, description: "Sophisticated meeting room with integrated shelving, modern lighting, and elegant furnishings for professional environments." },
