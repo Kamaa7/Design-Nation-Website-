@@ -53,7 +53,6 @@ const Projects = () => {
     { title: "Premium Kitchen Design", category: "Residential", image: kitchen, description: "Elegant modular kitchen with marble backsplash, under-cabinet lighting, and smart storage." },
     { title: "Elegant Guest Bedroom", category: "Residential", image: elegantBedroom, description: "Stylish guest bedroom with designer ceiling, wardrobes, and coordinated soft furnishings." },
     { title: "Modern Living Space", category: "Residential", image: modernSpace, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
-    { title: "Cozy Family Room", category: "Residential", image: interior7, description: "Warm family space designed for comfort with plush seating and thoughtful storage solutions." },
     { title: "Kids Bedroom", category: "Residential", image: kidsBedroom, description: "Playful and cozy kids bedroom with whimsical wallpaper, soft colors, and modern design elements perfect for children." },
     { title: "Executive Conference Room", category: "Commercial", image: commercial1, description: "Sophisticated meeting room with integrated shelving, modern lighting, and elegant furnishings for professional environments." },
     { title: "Modern Office Workspace", category: "Commercial", image: commercial2, description: "Contemporary office space with collaborative workstations, natural lighting, and minimalist design for enhanced productivity." },
