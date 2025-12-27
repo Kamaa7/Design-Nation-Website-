@@ -55,8 +55,8 @@ const Projects = () => {
     { title: "Modern Living Space", category: "Residential", image: modernSpace, description: "Contemporary living area with premium flooring, artistic decor, and ambient lighting design." },
     { title: "Kids Bedroom", category: "Residential", image: kidsBedroom, description: "Playful and cozy kids bedroom with whimsical wallpaper, soft colors, and modern design elements perfect for children." },
     { title: "Luxury Reception Lounge", category: "Commercial", image: commercial1, description: "Elegant reception area featuring curved seating, natural stone accents, and ambient lighting creating a welcoming atmosphere." },
-    { title: "Modern Office Workspace", category: "Commercial", image: commercial2, description: "Contemporary office space with collaborative workstations, natural lighting, and minimalist design for enhanced productivity." },
-    { title: "Executive Conference Room", category: "Commercial", image: commercial3, description: "Sophisticated meeting room with integrated shelving, modern lighting, and elegant furnishings for professional environments." },
+    { title: "Executive Conference Room", category: "Commercial", image: commercial2, description: "Sophisticated meeting room with integrated shelving, modern lighting, and elegant furnishings for professional environments." },
+    { title: "Modern Office Workspace", category: "Commercial", image: commercial3, description: "Contemporary office space with collaborative workstations, natural lighting, and minimalist design for enhanced productivity." },
     { title: "Premium Executive Office", category: "Commercial", image: commercial4, description: "High-end executive office with sophisticated design, built-in storage, and refined finishes for professional excellence." },
   ];
 
