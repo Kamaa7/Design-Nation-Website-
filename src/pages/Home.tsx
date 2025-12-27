@@ -12,6 +12,7 @@ import interior3 from "@/assets/interior-3.jpg";
 import interior4 from "@/assets/interior-4.jpg";
 import interior5 from "@/assets/interior-5.jpg";
 import interior6 from "@/assets/interior-6.jpg";
+import interior7 from "@/assets/interior-7.jpg";
 import kitchen from "@/assets/kitchen.jpg";
 
 const HomePage = () => {
@@ -70,7 +71,7 @@ const HomePage = () => {
     { title: "Luxury Kitchen Design", category: "Residential", image: kitchen },
     { title: "Contemporary Bedroom", category: "Residential", image: interior3 },
     { title: "Elegant Bedroom Suite", category: "Residential", image: interior4 },
-    { title: "Stylish Bedroom Space", category: "Residential", image: interior5 },
+    { title: "Stylish Bedroom Space", category: "Residential", image: interior7 },
     { title: "Premium Bedroom Design", category: "Residential", image: interior6 },
   ];
 
